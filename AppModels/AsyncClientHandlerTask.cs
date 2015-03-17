@@ -129,13 +129,33 @@ namespace TcpClientsSimulator.AppModels
                 lock(guiHandle.asyncClientHandlerTaskList)
                 {
                     guiHandle.asyncClientHandlerTaskList.Remove(this);
-                    if(guiHandle.asyncClientHandlerTaskList.Count == 0)
-                    {
-                        guiHandle.BeginInvoke(new Action(() => {
+                    guiHandle.BeginInvoke(new Action(()=>{
+                        switch (tcpClientType)
+                        {
+                            case TcpClientType.Normal:
+                                guiHandle.countClientType1Complete++;
+                                guiHandle.progressBar1.Value = (int)(guiHandle.countClientType1Complete * 100.0 / guiHandle.countClientType1Total);
+                                Console.WriteLine("Progress: " + guiHandle.progressBar1.Value);
+                                break;
+                            case TcpClientType.StopAfterSync:
+                                guiHandle.countClientType2Complete++;
+                                guiHandle.progressBar2.Value = (int)(guiHandle.countClientType2Complete * 100.0 / guiHandle.countClientType2Total);
+                                break;
+                            case TcpClientType.StopAfterPush:
+                                guiHandle.countClientType3Complete++;
+                                guiHandle.progressBar3.Value = (int)(guiHandle.countClientType3Complete * 100.0 / guiHandle.countClientType3Total);
+                                break;
+                            case TcpClientType.StopAfterAck:
+                                guiHandle.countClientType4Complete++;
+                                guiHandle.progressBar4.Value = (int)(guiHandle.countClientType4Complete * 100.0 / guiHandle.countClientType4Total);
+                                break;
+                        }
+                        if (guiHandle.asyncClientHandlerTaskList.Count == 0)
+                        {
                             guiHandle.button1.Text = "Start Simulation";
                             guiHandle.button1.Enabled = true;
-                        }));
-                    }
+                        }
+                    }));
                 }
             });
         }

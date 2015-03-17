@@ -16,6 +16,15 @@ namespace TcpClientsSimulator
     public partial class Form1 : Form
     {
         public List<AsyncClientHandlerTask> asyncClientHandlerTaskList;
+        public UInt32 countClientType1Total;
+        public UInt32 countClientType2Total;
+        public UInt32 countClientType3Total;
+        public UInt32 countClientType4Total;
+
+        public UInt32 countClientType1Complete;
+        public UInt32 countClientType2Complete;
+        public UInt32 countClientType3Complete;
+        public UInt32 countClientType4Complete;
 
         #region Constructor
         public Form1()
@@ -75,6 +84,20 @@ namespace TcpClientsSimulator
 
             richTextBox1.Text = "";
             richTextBox1.Text += "[Clients Simulation Start]\n";
+
+            countClientType1Total = tupleClientType1CountValidation.Item2;
+            countClientType2Total = tupleClientType2CountValidation.Item2;
+            countClientType3Total = tupleClientType3CountValidation.Item2;
+            countClientType4Total = tupleClientType4CountValidation.Item2;
+            countClientType1Complete = 0;
+            countClientType2Complete = 0;
+            countClientType3Complete = 0;
+            countClientType4Complete = 0;
+
+            progressBar1.Value = 0;
+            progressBar2.Value = 0;
+            progressBar3.Value = 0;
+            progressBar4.Value = 0;
 
             AsyncClientsCreatorTask asyncClientsCreatorTask = new AsyncClientsCreatorTask(this,
                  tupleIpFieldValidation.Item2, tuplePortFieldValidation.Item2,

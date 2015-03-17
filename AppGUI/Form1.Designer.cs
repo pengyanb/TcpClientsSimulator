@@ -47,6 +47,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.label13 = new System.Windows.Forms.Label();
+            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.progressBar3 = new System.Windows.Forms.ProgressBar();
+            this.label12 = new System.Windows.Forms.Label();
+            this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -57,6 +65,7 @@
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
             this.SuspendLayout();
@@ -276,12 +285,102 @@
             this.splitContainer3.Name = "splitContainer3";
             this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
+            // splitContainer3.Panel1
+            // 
+            this.splitContainer3.Panel1.Controls.Add(this.label13);
+            this.splitContainer3.Panel1.Controls.Add(this.progressBar4);
+            this.splitContainer3.Panel1.Controls.Add(this.progressBar3);
+            this.splitContainer3.Panel1.Controls.Add(this.label12);
+            this.splitContainer3.Panel1.Controls.Add(this.progressBar2);
+            this.splitContainer3.Panel1.Controls.Add(this.label11);
+            this.splitContainer3.Panel1.Controls.Add(this.label10);
+            this.splitContainer3.Panel1.Controls.Add(this.progressBar1);
+            // 
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.richTextBox1);
             this.splitContainer3.Size = new System.Drawing.Size(642, 483);
-            this.splitContainer3.SplitterDistance = 253;
+            this.splitContainer3.SplitterDistance = 151;
             this.splitContainer3.TabIndex = 0;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(3, 107);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(122, 13);
+            this.label13.TabIndex = 9;
+            this.label13.Text = "4. Stop after server Ack:";
+            // 
+            // progressBar4
+            // 
+            this.progressBar4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.progressBar4.Location = new System.Drawing.Point(150, 97);
+            this.progressBar4.Name = "progressBar4";
+            this.progressBar4.Size = new System.Drawing.Size(485, 23);
+            this.progressBar4.Step = 1;
+            this.progressBar4.TabIndex = 8;
+            // 
+            // progressBar3
+            // 
+            this.progressBar3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar3.ForeColor = System.Drawing.Color.Yellow;
+            this.progressBar3.Location = new System.Drawing.Point(150, 68);
+            this.progressBar3.Name = "progressBar3";
+            this.progressBar3.Size = new System.Drawing.Size(485, 23);
+            this.progressBar3.Step = 1;
+            this.progressBar3.TabIndex = 7;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(3, 78);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(141, 13);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "3. Stop after Push Message:";
+            // 
+            // progressBar2
+            // 
+            this.progressBar2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar2.ForeColor = System.Drawing.Color.Aqua;
+            this.progressBar2.Location = new System.Drawing.Point(150, 39);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(485, 23);
+            this.progressBar2.Step = 1;
+            this.progressBar2.TabIndex = 5;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(3, 49);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(92, 13);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "2. Stop after Sync";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(3, 20);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 13);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "1. Normal:";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar1.Location = new System.Drawing.Point(150, 10);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(485, 23);
+            this.progressBar1.Step = 1;
+            this.progressBar1.TabIndex = 0;
             // 
             // richTextBox1
             // 
@@ -292,7 +391,7 @@
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(4, 4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(631, 208);
+            this.richTextBox1.Size = new System.Drawing.Size(631, 310);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             this.richTextBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.richTextBox1_MouseDoubleClick);
@@ -317,6 +416,8 @@
             this.splitContainer2.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel1.PerformLayout();
             this.splitContainer3.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
@@ -346,6 +447,14 @@
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.RichTextBox richTextBox1;
         public System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        public System.Windows.Forms.ProgressBar progressBar4;
+        public System.Windows.Forms.ProgressBar progressBar3;
+        public System.Windows.Forms.ProgressBar progressBar2;
+        public System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 

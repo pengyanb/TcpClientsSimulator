@@ -6,4 +6,3 @@ C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\
 C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.csproj.GenerateResource.Cache
 C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.exe
 C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.pdb
-C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.csprojResolveAssemblyReference.cache
