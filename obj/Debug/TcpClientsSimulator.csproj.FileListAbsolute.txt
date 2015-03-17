@@ -1,0 +1,9 @@
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\bin\Debug\TcpClientsSimulator.exe.config
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\bin\Debug\TcpClientsSimulator.exe
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\bin\Debug\TcpClientsSimulator.pdb
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.Form1.resources
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.Properties.Resources.resources
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.csproj.GenerateResource.Cache
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.exe
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.pdb
+C:\Users\peng\OneDrive\Documents\GitHub\TcpClientsSimulator\TcpClientsSimulator\obj\Debug\TcpClientsSimulator.csprojResolveAssemblyReference.cache
